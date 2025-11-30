@@ -1,237 +1,239 @@
 {
-  "personal": {
-    "name": "Gourav Jagga",
-    "title": "Java Backend Developer",
-    "greeting": "👋 Hi, I'm Gourav Jagga",
-    "tagline": "Backend-focused Java Developer with 4+ years of experience in designing, developing, and deploying secure and scalable microservices using Spring Boot, JPA/Hibernate, and Kafka. Proven expertise in performance optimization, concurrency handling, and system design for enterprise-level clients.",
-    "email": "gurvitmehta@gmail.com",
-    "phone": "+91 8683958488",
-    "location": "Sector 123, Mohali, Punjab, India",
-    "github": "https://github.com/gouravjagga",
-    "linkedin": "https://linkedin.com/in/gourav-jagga",
-    "portfolio": "https://gjdevportfolio.vercel.app/"
-  },
-  "about": {
-    "paragraphs": [
-      "As a backend-focused Java developer at Alert Enterprise, I specialize in building secure, high-performance microservices that handle millions of transactions daily. My work focuses on enterprise-level solutions for clients like Wells Fargo, where I've engineered systems processing 57M records per hour.",
-      "I'm passionate about performance optimization and security. Whether it's reducing inter-service latency by 65% through SFTP-based cache synchronization or implementing configuration-driven data masking to prevent 200+ potential breaches annually, I believe in writing code that's both fast and secure.",
-      "Beyond individual contributions, I mentor junior engineers and actively contribute to system architecture decisions, always keeping scalability and maintainability at the forefront of design choices."
+    "personal": {
+        "name": "Gourav Jagga",
+        "title": "Java Backend Developer",
+        "greeting": "👋 Hi, I'm Gourav Jagga",
+        "tagline": "Backend-focused Java Developer with 4+ years of experience in designing, developing, and deploying secure and scalable microservices using Spring Boot, JPA/Hibernate, and Kafka. Proven expertise in performance optimization, concurrency handling, and system design for enterprise-level clients.",
+        "email": "gurvitmehta@gmail.com",
+        "phone": "+91 8683958488",
+        "location": "Sector 123, Mohali, Punjab, India",
+        "github": "https://github.com/Gourav-Jagga",
+        "linkedin": "https://www.linkedin.com/in/gourav-jagga-433937169/",
+        "portfolio": "https://gjdev.in/"
+    },
+    "about": {
+        "paragraphs": [
+            "As a backend-focused Java developer at Alert Enterprise, I specialize in building secure, high-performance microservices that handle millions of transactions daily. My work focuses on enterprise-level solutions for clients like Wells Fargo, where I've engineered systems processing 57M records per hour.",
+            "I'm passionate about performance optimization and security. Whether it's reducing inter-service latency by 65% through SFTP-based cache synchronization or implementing configuration-driven data masking to prevent 200+ potential breaches annually, I believe in writing code that's both fast and secure.",
+            "Beyond individual contributions, I mentor junior engineers and actively contribute to system architecture decisions, always keeping scalability and maintainability at the forefront of design choices."
+        ],
+        "competencies": [
+            "Microservices Architecture & Spring Boot Development",
+            "Performance Optimization & Concurrency Management",
+            "Enterprise Security & PII Data Protection",
+            "System Design & Scalable Solutions",
+            "Kafka & Message-Driven Architecture",
+            "Mentoring & Technical Leadership"
+        ]
+    },
+    "skills": {
+        "Programming Languages": [
+            "Java (Core & 11+)",
+            "JavaScript (ES6+)",
+            "SQL (PostgreSQL, MS SQL)",
+            "Bash",
+            "Groovy",
+            "MVFLEX"
+        ],
+        "Backend Development": [
+            "Spring Boot",
+            "Spring Security",
+            "Spring MVC",
+            "JPA / Hibernate",
+            "REST APIs",
+            "Microservices",
+            "Executor Framework",
+            "Multithreading & Concurrency",
+            "Redis",
+            "Flyway",
+            "Node.js"
+        ],
+        "Messaging & Integration": [
+            "Apache Kafka",
+            "ActiveMQ",
+            "SFTP (PGP Encryption)",
+            "API Integration",
+            "Web Services"
+        ],
+        "Testing & Quality": [
+            "JUnit",
+            "Mockito",
+            "Selenium",
+            "Postman",
+            "JMeter",
+            "Burp Suite"
+        ],
+        "DevOps & Cloud": [
+            "Docker",
+            "NGINX",
+            "AWS (EC2, Lambda, CloudWatch)",
+            "Jenkins",
+            "CI/CD Pipeline Automation"
+        ],
+        "Tools & Collaboration": [
+            "Git",
+            "JIRA",
+            "Maven",
+            "Eclipse MAT",
+            "IntelliJ IDEA",
+            "VS Code"
+        ]
+    },
+    "experience": [
+        {
+            "role": "Software Engineer 2",
+            "company": "Alert Enterprise",
+            "location": "Chandigarh, India",
+            "period": "July 2024 - Present",
+            "description": "Leading development of high-performance microservices and mentoring junior engineers while optimizing enterprise-level systems for major financial institutions.",
+            "achievements": [
+                "Engineered SFTP-based cache synchronization (PGP-encrypted) between 5+ microservices, reducing inter-service latency by 65% (from 1.2s → 0.4s per 10MB payload)",
+                "Redesigned chunk-based processing with dynamic thread pooling, achieving 3.8x faster bulk data loads (15M records/hr → 57M records/hr) for Wells Fargo",
+                "Mentored 3 junior engineers on MVEL policy templates, reducing authorization logic bugs by 48%",
+                "Implemented advanced concurrency patterns using Executor Framework for optimal resource utilization"
+            ]
+        },
+        {
+            "role": "Software Engineer 1",
+            "company": "Alert Enterprise",
+            "location": "Chandigarh, India",
+            "period": "March 2022 - July 2024",
+            "description": "Developed secure microservices with focus on PII data protection, workflow optimization, and compliance for enterprise clients including Wells Fargo.",
+            "achievements": [
+                "Developed configuration-driven masking for PII fields (SSN, DOB), preventing 200+ potential breaches for Wells Fargo's 1.2M identities",
+                "Optimized multi-threaded approval workflows, reducing latency from 8s → 2.3s for 10K+ daily requests",
+                "Implemented runtime policy evaluation for workflows, replacing 300+ hardcoded checks and improving audit compliance to 100%",
+                "Built Kafka-based event-driven architecture for real-time data synchronization across microservices"
+            ]
+        },
+        {
+            "role": "Software Engineer Intern",
+            "company": "Alert Enterprise",
+            "location": "Chandigarh, India",
+            "period": "September 2021 - March 2022",
+            "description": "Applied design patterns and resolved critical bugs in Java/Spring MVC applications, contributing to system stability and code quality improvements.",
+            "achievements": [
+                "Applied design patterns (Strategy/Factory) to SMTP notification system, reducing code duplication by 70% across 8 modules",
+                "Fixed 65+ authorization flaws in Java/Spring MVC, improving system stability by 35%",
+                "Contributed to REST API development and integration testing using JUnit and Mockito"
+            ]
+        }
     ],
-    "competencies": [
-      "Microservices Architecture & Spring Boot Development",
-      "Performance Optimization & Concurrency Management",
-      "Enterprise Security & PII Data Protection",
-      "System Design & Scalable Solutions",
-      "Kafka & Message-Driven Architecture",
-      "Mentoring & Technical Leadership"
-    ]
-  },
-  "skills": {
-    "Programming Languages": [
-      "Java (Core & 11+)",
-      "JavaScript (ES6+)",
-      "SQL (PostgreSQL, MS SQL)",
-      "Bash",
-      "Groovy",
-      "MVFLEX"
+    "projects": [
+        {
+            "title": "HSC (High Security Compliance Platform)",
+            "description": "Enterprise-grade security and compliance platform providing real-time data masking, encrypted data transfers, and comprehensive audit trails for financial institutions. Handles 5TB+ monthly data processing with zero security incidents.",
+            "technologies": [
+                "Spring Boot",
+                "Kafka",
+                "PostgreSQL",
+                "Redis",
+                "SFTP (PGP)",
+                "Docker",
+                "AWS"
+            ],
+            "features": [
+                "Real-time configuration-driven data masking for PII fields (SSN, DOB, etc.)",
+                "SFTP pipelines with PGP encryption for cross-microservice transfers",
+                "Processing 5TB+ monthly data with zero security incidents",
+                "Reduced compliance risks by 50% and prevented 200+ potential breaches annually"
+            ],
+            "icon": "Server",
+            "highlights": [
+                "Serves Wells Fargo's 1.2M identities",
+                "Processes 57M records per hour",
+                "65% reduction in inter-service latency"
+            ]
+        },
+        {
+            "title": "Guardian (Access Management System)",
+            "description": "Dynamic access management and provisioning platform with tier-based approval workflows, customizable UI configurations, and automated compliance enforcement for enterprise clients.",
+            "technologies": [
+                "Spring Boot",
+                "Angular",
+                "PostgreSQL",
+                "ActiveMQ",
+                "MVEL",
+                "Jenkins"
+            ],
+            "features": [
+                "Dynamic UI customization with variable field lengths",
+                "Tier-based email notification system for approval workflows",
+                "Runtime policy evaluation engine using MVEL templates",
+                "Automated provisioning and delegation workflows"
+            ],
+            "icon": "Briefcase",
+            "highlights": [
+                "Handles 10,000+ monthly approval requests",
+                "40% reduction in admin configuration time",
+                "Serves 50+ enterprise clients",
+                "100% audit compliance achieved"
+            ]
+        },
+        {
+            "title": "Smart Healthcare System",
+            "description": "Microservice-based healthcare platform for patient management, appointment scheduling, EMR handling, and event-driven notifications designed for clinics and small hospitals.",
+            "technologies": [
+                "Spring Boot",
+                "Java",
+                "MongoDB",
+                "Apache Kafka",
+                "React",
+                "Docker",
+                "Docker Compose",
+                "Jenkins"
+            ],
+            "features": [
+                "Patient registration and secure EMR storage (document model)",
+                "Smart appointment scheduling with conflict detection and reminders",
+                "Event-driven notifications (email/SMS/push) via Kafka",
+                "Role-based access control and audit logging",
+                "Containerized microservices with docker-compose for local deployments"
+            ],
+            "icon": "Hospital",
+            "highlights": [
+                "Designed as modular microservices for independent scaling",
+                "Fast local onboarding via Docker Compose",
+                "Event-driven workflows for reliable async processing"
+            ]
+        }
     ],
-    "Backend Development": [
-      "Spring Boot",
-      "Spring Security",
-      "Spring MVC",
-      "JPA / Hibernate",
-      "REST APIs",
-      "Microservices",
-      "Executor Framework",
-      "Multithreading & Concurrency",
-      "Redis",
-      "Flyway",
-      "Node.js"
+    "education": [
+        {
+            "degree": "Bachelor of Technology in Computer Science",
+            "institution": "Chandigarh University",
+            "location": "Gharuan, Mohali",
+            "period": "July 2018 - July 2022",
+            "cgpa": "7.52 CGPA",
+            "highlights": [
+                "Focused on Data Structures, Algorithms, and System Design",
+                "Completed internship at Alert Enterprise during final year",
+                "Active participant in coding competitions and hackathons"
+            ]
+        }
     ],
-    "Messaging & Integration": [
-      "Apache Kafka",
-      "ActiveMQ",
-      "SFTP (PGP Encryption)",
-      "API Integration",
-      "Web Services"
+    "achievements": [
+        {
+            "title": "Performance Optimization Champion",
+            "description": "Achieved 3.8x performance improvement in bulk data processing for Wells Fargo",
+            "metric": "57M records/hr (from 15M)"
+        },
+        {
+            "title": "Security Excellence",
+            "description": "Implemented data masking solution preventing 200+ potential breaches annually",
+            "metric": "1.2M identities protected"
+        },
+        {
+            "title": "Mentorship Award",
+            "description": "Successfully mentored 3 junior engineers, reducing bugs by 48%",
+            "metric": "48% bug reduction"
+        },
+        {
+            "title": "System Reliability Expert",
+            "description": "Improved system stability through bug fixes and optimization",
+            "metric": "35% stability improvement"
+        }
     ],
-    "Testing & Quality": [
-      "JUnit",
-      "Mockito",
-      "Selenium",
-      "Postman",
-      "JMeter",
-      "Burp Suite"
-    ],
-    "DevOps & Cloud": [
-      "Docker",
-      "NGINX",
-      "AWS (EC2, Lambda, CloudWatch)",
-      "Jenkins",
-      "CI/CD Pipeline Automation"
-    ],
-    "Tools & Collaboration": [
-      "Git",
-      "JIRA",
-      "Maven",
-      "Eclipse MAT",
-      "IntelliJ IDEA",
-      "VS Code"
-    ]
-  },
-  "experience": [
-    {
-      "role": "Software Engineer 2",
-      "company": "Alert Enterprise",
-      "location": "Chandigarh, India",
-      "period": "July 2024 - Present",
-      "description": "Leading development of high-performance microservices and mentoring junior engineers while optimizing enterprise-level systems for major financial institutions.",
-      "achievements": [
-        "Engineered SFTP-based cache synchronization (PGP-encrypted) between 5+ microservices, reducing inter-service latency by 65% (from 1.2s → 0.4s per 10MB payload)",
-        "Redesigned chunk-based processing with dynamic thread pooling, achieving 3.8x faster bulk data loads (15M records/hr → 57M records/hr) for Wells Fargo",
-        "Mentored 3 junior engineers on MVEL policy templates, reducing authorization logic bugs by 48%",
-        "Implemented advanced concurrency patterns using Executor Framework for optimal resource utilization"
-      ]
-    },
-    {
-      "role": "Software Engineer 1",
-      "company": "Alert Enterprise",
-      "location": "Chandigarh, India",
-      "period": "March 2022 - July 2024",
-      "description": "Developed secure microservices with focus on PII data protection, workflow optimization, and compliance for enterprise clients including Wells Fargo.",
-      "achievements": [
-        "Developed configuration-driven masking for PII fields (SSN, DOB), preventing 200+ potential breaches for Wells Fargo's 1.2M identities",
-        "Optimized multi-threaded approval workflows, reducing latency from 8s → 2.3s for 10K+ daily requests",
-        "Implemented runtime policy evaluation for workflows, replacing 300+ hardcoded checks and improving audit compliance to 100%",
-        "Built Kafka-based event-driven architecture for real-time data synchronization across microservices"
-      ]
-    },
-    {
-      "role": "Software Engineer Intern",
-      "company": "Alert Enterprise",
-      "location": "Chandigarh, India",
-      "period": "September 2021 - March 2022",
-      "description": "Applied design patterns and resolved critical bugs in Java/Spring MVC applications, contributing to system stability and code quality improvements.",
-      "achievements": [
-        "Applied design patterns (Strategy/Factory) to SMTP notification system, reducing code duplication by 70% across 8 modules",
-        "Fixed 65+ authorization flaws in Java/Spring MVC, improving system stability by 35%",
-        "Contributed to REST API development and integration testing using JUnit and Mockito"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "title": "HSC (High Security Compliance Platform)",
-      "description": "Enterprise-grade security and compliance platform providing real-time data masking, encrypted data transfers, and comprehensive audit trails for financial institutions. Handles 5TB+ monthly data processing with zero security incidents.",
-      "technologies": [
-        "Spring Boot",
-        "Kafka",
-        "PostgreSQL",
-        "Redis",
-        "SFTP (PGP)",
-        "Docker",
-        "AWS"
-      ],
-      "features": [
-        "Real-time configuration-driven data masking for PII fields (SSN, DOB, etc.)",
-        "SFTP pipelines with PGP encryption for cross-microservice transfers",
-        "Processing 5TB+ monthly data with zero security incidents",
-        "Reduced compliance risks by 50% and prevented 200+ potential breaches annually"
-      ],
-      "icon": "Server",
-      "highlights": [
-        "Serves Wells Fargo's 1.2M identities",
-        "Processes 57M records per hour",
-        "65% reduction in inter-service latency"
-      ]
-    },
-    {
-      "title": "Guardian (Access Management System)",
-      "description": "Dynamic access management and provisioning platform with tier-based approval workflows, customizable UI configurations, and automated compliance enforcement for enterprise clients.",
-      "technologies": [
-        "Spring Boot",
-        "Angular",
-        "PostgreSQL",
-        "ActiveMQ",
-        "MVEL",
-        "Jenkins"
-      ],
-      "features": [
-        "Dynamic UI customization with variable field lengths",
-        "Tier-based email notification system for approval workflows",
-        "Runtime policy evaluation engine using MVEL templates",
-        "Automated provisioning and delegation workflows"
-      ],
-      "icon": "Briefcase",
-      "highlights": [
-        "Handles 10,000+ monthly approval requests",
-        "40% reduction in admin configuration time",
-        "Serves 50+ enterprise clients",
-        "100% audit compliance achieved"
-      ]
-    },
-    {
-      "title": "PIA Solutions (Privacy Impact Assessment)",
-      "description": "Automated privacy impact assessment platform helping organizations comply with GDPR, CCPA, and other data protection regulations. Features intelligent data discovery, risk scoring, and comprehensive compliance reporting.",
-      "technologies": [
-        "Java",
-        "Spring Framework",
-        "MongoDB",
-        "Apache Kafka",
-        "Redis",
-        "Docker"
-      ],
-      "features": [
-        "Automated privacy assessments with AI-driven risk scoring",
-        "Configurable data masking rules and policies",
-        "Real-time compliance monitoring and reporting dashboard",
-        "Comprehensive audit trail and activity logging",
-        "Integration with existing enterprise security systems"
-      ],
-      "icon": "Globe",
-      "highlights": [
-        "Multi-regulation compliance (GDPR, CCPA, HIPAA)",
-        "Automated risk assessment",
-        "Enterprise-scale data protection"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "degree": "Bachelor of Technology in Computer Science",
-      "institution": "Chandigarh University",
-      "location": "Gharuan, Mohali",
-      "period": "July 2018 - July 2022",
-      "cgpa": "7.52 CGPA",
-      "highlights": [
-        "Focused on Data Structures, Algorithms, and System Design",
-        "Completed internship at Alert Enterprise during final year",
-        "Active participant in coding competitions and hackathons"
-      ]
-    }
-  ],
-  "achievements": [
-    {
-      "title": "Performance Optimization Champion",
-      "description": "Achieved 3.8x performance improvement in bulk data processing for Wells Fargo",
-      "metric": "57M records/hr (from 15M)"
-    },
-    {
-      "title": "Security Excellence",
-      "description": "Implemented data masking solution preventing 200+ potential breaches annually",
-      "metric": "1.2M identities protected"
-    },
-    {
-      "title": "Mentorship Award",
-      "description": "Successfully mentored 3 junior engineers, reducing bugs by 48%",
-      "metric": "48% bug reduction"
-    },
-    {
-      "title": "System Reliability Expert",
-      "description": "Improved system stability through bug fixes and optimization",
-      "metric": "35% stability improvement"
-    }
-  ],
-  "certifications": [],
-  "testimonials": []
+    "certifications": [],
+    "testimonials": []
 }
