@@ -1,27 +1,32 @@
 pipeline {
   agent any
+
   environment {
-    IMAGE_NAME = "Portfolio"
+    IMAGE_NAME = "portfolio"  
     TAG = "latest"
-    BUILD_DIR = "build_output"
   }
+
   stages {
+
     stage('Checkout') {
       steps {
         checkout scm
       }
     }
 
-    stage('Build inside node container') {
+    stage('Build (Node 20)') {
       steps {
         sh '''
-          rm -rf ${BUILD_DIR}
-          docker run --rm -v $PWD:/work -w /work node:18-alpine sh -c "npm ci && npm run build"
+          docker run --rm \
+            -v $PWD:/work \
+            -w /work \
+            node:20-alpine \
+            sh -c "npm ci && npm run build"
         '''
       }
     }
 
-    stage('Build Docker image') {
+    stage('Build Docker Image') {
       steps {
         sh "docker build -t ${IMAGE_NAME}:${TAG} ."
       }
@@ -30,11 +35,21 @@ pipeline {
     stage('Deploy') {
       steps {
         sh '''
-          docker stop react_app_container || true
-          docker rm -f react_app_container || true
-          docker run -d --name react_app_container -p 80:80 ${IMAGE_NAME}:${TAG}
+          docker stop portfolio_container || true
+          docker rm -f portfolio_container || true
+
+          docker run -d \
+            --name portfolio_container \
+            -p 80:80 \
+            portfolio:latest
         '''
       }
+    }
+  }
+
+  post {
+    success {
+      echo "✔️ Deployment complete at http://localhost:80"
     }
   }
 }
