@@ -39,6 +39,7 @@ pipeline {
           docker rm -f portfolio_container || true
 
           docker run -d \
+            --restart=always \
             --name portfolio_container \
             -p 80:80 \
             portfolio:latest
